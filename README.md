@@ -30,6 +30,10 @@ Program ini memanfaatkan struktur data **dictionary** untuk menyimpan dan mengel
 8. **Menghapus Data Kontak**
    Data kontak milik **Dina** dihapus dari dictionary dengan menggunakan perintah `del daftar_kontak['Dina']`.
 
+Output dari program ini:
+
+<img width="618" height="331" alt="HasilL" src="https://github.com/user-attachments/assets/8bff44da-4627-413e-9e23-b873bc4a8677" />
+
 Secara keseluruhan, kode ini mendemonstrasikan operasi dasar pada dictionary yang meliputi akses data, penambahan, pembaruan, penampilan seluruh isi, dan penghapusan data.
 
 ### **Latihan Dictionary untuk Daftar Nilai Mahasiswa**
@@ -57,3 +61,50 @@ Program ini menggunakan **dictionary** sebagai tempat penyimpanan data mahasiswa
    **L** (lihat), **T** (tambah), **U** (ubah), **H** (hapus), **C** (cari), dan **K** (keluar).
 
 Program ini menerapkan operasi CRUD secara lengkap dengan validasi input pada bagian nama dan tampilan tabel yang rapi.
+```
+                      ┌────────────┐
+                      │   MULAI    │
+                      └─────┬──────┘
+                            │
+                ┌───────────▼───────────┐
+                │   TAMPILKAN MENU      │
+                │ (L/T/U/H/C/K)         │
+                └───────┬───────────────┘
+                        │
+        ┌───────────────┼────────────────┬────────────────┬─────── ──────┐
+        │               │                │                │              │
+        ▼               ▼                ▼                ▼              ▼
+   (Lihat)         (Tambah)          (Ubah)           (Hapus)         (Cari)
+     │               │                │                │                │
+ ┌───▼───┐    ┌──────▼──────┐   ┌─────▼──────┐   ┌────▼─────┐   ┌───────▼──────┐
+ │Tampil │    │Input NIM    │   │Input NIM   │   │Input NIM │   │Input NIM     │
+ │Data   │    │Input Nama   │   │Cek Ada?    │   │Hapus Data│   │Tampilkan Data│
+ └───┬───┘    │Input Nilai  │   │Ubah Data   │   └────┬─────┘   └───────┬──────┘
+     │        │Hitung Akhir │   │Hitung Akhir│        │                 │
+     │        │Simpan Data  │   └──────┬─────┘        │                 │
+     │        └──────┬──────┘          │              │                 │
+     │               │                 │              │                 │
+     └───────────────▼─────────────────▼───────┐──────▼─────────────────▼
+                                               │
+                     ┌─────────────────────────▼──────────────┐
+                     │         KEMBALI KE MENU                │
+                     └───────────────────┬────────────────────┘
+                                         │
+                                  ┌──────▼──────┐
+                                  │   KELUAR?   │
+                                  └──────┬──────┘
+                                         │YA
+                                         ▼
+                                   ┌───────────┐
+                                   │  SELESAI  │
+                                   └───────────┘
+```
+
+Output Program Ini:
+
+<img width="734" height="407" alt="HasilP" src="https://github.com/user-attachments/assets/4aab58a0-f96e-4fa4-a306-1da049c30046" />
+<img width="528" height="380" alt="HasilP2" src="https://github.com/user-attachments/assets/7374ba6a-c050-4c83-b914-4b5ceca632d4" />
+<img width="509" height="212" alt="HasilP3" src="https://github.com/user-attachments/assets/e7569f70-1f8d-47d0-986e-be475b4c55d7" />
+
+
+Melalui tugas Latihan dan Praktikum, dapat disimpulkan bahwa penggunaan dictionary dalam Python merupakan metode yang efektif untuk mengelola data yang terstruktur. Pada tugas Latihan, mahasiswa mempelajari operasi dasar dictionary seperti penambahan, pembacaan, pembaruan, dan penghapusan data. Sementara pada tugas Praktikum, konsep tersebut diterapkan dalam pembuatan program pengelolaan nilai mahasiswa yang mencakup operasi CRUD, perhitungan nilai akhir, tampilan tabel, serta validasi input. Secara keseluruhan, kedua tugas ini memperkuat pemahaman mengenai bagaimana dictionary dapat mendukung pembuatan aplikasi sederhana yang terorganisasi, akurat, dan mudah dipelihara.
