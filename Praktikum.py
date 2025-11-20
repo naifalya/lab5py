@@ -1,4 +1,3 @@
-# praktikum5.py
 import re
 
 data = {}
@@ -64,7 +63,6 @@ def ubah_data():
     print("Isi data baru (kosongkan jika tidak ingin mengubah):")
     nama_baru = input("Nama baru\t: ")
 
-    # Validasi nama jika user memasukkan sesuatu
     if nama_baru.strip() != "":
         while not valid_nama(nama_baru):
             print("ERROR: Nama hanya boleh berisi huruf! Coba lagi.")
